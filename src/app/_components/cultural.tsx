@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import elitton from '../../../public/patrocinadores/elitton.png';
 import prefeitura from '../../../public/patrocinadores/prefeitura.png';
-import josimar from '../../../public/patrocinadores/josimar.png';
 import aluizio from '../../../public/patrocinadores/aluizio.png';
+import josimar from '../../../public/patrocinadores/josimar.png'
 
 export function Cultural() {
     return (

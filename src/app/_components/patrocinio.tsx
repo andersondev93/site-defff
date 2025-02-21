@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import smart from '../../../public/patrocinadores/smart.png';
-import mercado from '../../../public/patrocinadores/mercado.png';
 import evolution from '../../../public/patrocinadores/evolution.png';
 import daniel from '../../../public/patrocinadores/daniel.png';
 import varanda from '../../../public/patrocinadores/varanda.png';
@@ -19,6 +18,7 @@ import dantas from '../../../public/patrocinadores/dantas.jpeg';
 import querido from '../../../public/patrocinadores/querido.png';
 import delta from '../../../public/patrocinadores/delta.jpeg';
 import maytha from '../../../public/patrocinadores/maytha.png';
+import mercado from '../../../public/patrocinadores/mercado.png'
 
 export function Patrocinio() {
     return (

@@ -3,7 +3,7 @@ import atracoes from '../../../public/atracoes.jpeg';
 import kassio from '../../../public/kassio.png';
 import jade from '../../../public/jade.png';
 import defff from '../../../public/defff.png';
-import mercado from '../../../public/patrocinadores/mercado.png';
+import mercado from '../../../public/patrocinadores/mercado.png'
 
 
 export function Atracoes() {
