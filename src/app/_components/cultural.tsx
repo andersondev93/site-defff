@@ -2,6 +2,7 @@ import Image from 'next/image';
 import elitton from '../../../public/patrocinadores/elitton.png';
 import prefeitura from '../../../public/patrocinadores/prefeitura.png';
 import aluizio from '../../../public/patrocinadores/aluizio.png';
+import josimar from '../../../public/josimar.png';
 
 
 export function Cultural() {
@@ -31,7 +32,7 @@ export function Cultural() {
                     </div>
                     <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
                         <Image
-                            src={"/patrocinadores/josimar.png"}
+                            src={josimar}
                             alt='Josimar do Maranhãozinho'
                             className='w-[150px] h-[50px]'
                         />

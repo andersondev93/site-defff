@@ -18,6 +18,7 @@ import dantas from '../../../public/patrocinadores/dantas.jpeg';
 import querido from '../../../public/patrocinadores/querido.png';
 import delta from '../../../public/patrocinadores/delta.jpeg';
 import maytha from '../../../public/patrocinadores/maytha.png';
+import mercado from '../../../public/mercado.png';
 
 
 export function Patrocinio() {
@@ -40,8 +41,8 @@ export function Patrocinio() {
                 </div>
                 <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
                     <Image
-                        src={'patrocinadores/mercado.png'}
-                        alt='Prefeitura de Chapadinha-MA '
+                        src={mercado}
+                        alt='Mercado Pub'
                         className='w-[150px] h-[50px]'
                     />
                 </div>

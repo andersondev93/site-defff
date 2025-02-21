@@ -3,6 +3,7 @@ import atracoes from '../../../public/atracoes.jpeg';
 import kassio from '../../../public/kassio.png';
 import jade from '../../../public/jade.png';
 import defff from '../../../public/defff.png';
+import mercado from '../../../public/mercado.png';
 
 
 export function Atracoes() {
@@ -31,8 +32,8 @@ export function Atracoes() {
                             </div>
                             <div>
                                 <Image
-                                    src={'patrocinadores/mercado.png'}
-                                    alt='Logo do DEFFF'
+                                    src={mercado}
+                                    alt='Mercado Pub'
                                     className='w-[180px] h-[60px]'
                                 />
                             </div>
