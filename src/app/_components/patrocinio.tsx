@@ -23,7 +23,7 @@ import mercado from '../../../public/mercado.png';
 
 export function Patrocinio() {
     return (
-        <section className="w-full lg:h-[784px]">
+        <section className="w-full overflow-hidden">
 
             <div>
 
@@ -31,171 +31,149 @@ export function Patrocinio() {
 
             </div>
 
-            <div className='max-w-[1246px] px[15px] mx-auto flex-wrap flex items-center justify-center flex-row gap-4 mt-8 mb-8' data-aos="zoom-in">
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={smart}
-                        alt='Elitton Aguiar'
-                        className='w-[150px] h-[50px]'
-                    />
+            <div className="max-w-[1246px] mx-auto my-4 flex items-center justify-center">
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-2' data-aos="zoom-in" data-aos-delay="200">
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={smart}
+                            alt='Smart'
+                            className='w-[150px] h-[100px] object-contain'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={mercado}
+                            alt='Mercado Pub'
+                            className='w-[150px] h-[55px]'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={evolution}
+                            alt='Evolution Fitness'
+                            className='w-[150px] h-[100px]'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={daniel}
+                            alt='Daniel Viana'
+                            className='w-[180px] h-[100px] object-contain'
+                        />
+                    </div>
+                    <div className='w-[180px] shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={paiva}
+                            alt='Paiva Art Joias'
+                            className='w-[180px] h-[100px]  rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={fabricio}
+                            alt='Fabricio Mecânico'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={extreme}
+                            alt='Extreme Academia'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={posto}
+                            alt='Posto Delta'
+                            className='w-[150px] h-[100px]'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={wanderson}
+                            alt='Wanderson ContHabil'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={bruno}
+                            alt='Bruno Viana'
+                            className='w-[180px] h-[100px] object-contain'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-blue-800 shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={alberto}
+                            alt='Alberto Carlos'
+                            className='w-[150px] h-[100px] object-contain'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={gh}
+                            alt='Marmoraria GH'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={junior}
+                            alt='Junior Aguiar'
+                            className='w-[180px] h-[100px] object-contain'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={dantas}
+                            alt='Dantas'
+                            className='w-[120px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={querido}
+                            alt='Supermecado Querido'
+                            className='w-[180px] h-[40px] '
+                        />
+                    </div>
+                    <div className='w-[180px] shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={delta}
+                            alt='Delta'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={varanda}
+                            alt='Varanda Burguer'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px]  shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={number}
+                            alt='Number'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px]  shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={perpolpas}
+                            alt='Perpolpas'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
+                    <div className='w-[180px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
+                        <Image
+                            src={maytha}
+                            alt='Aluizio Santos'
+                            className='w-[180px] h-[100px] rounded-3xl'
+                        />
+                    </div>
                 </div>
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={mercado}
-                        alt='Mercado Pub'
-                        className='w-[150px] h-[50px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={evolution}
-                        alt='Josimar do Maranhãozinho'
-                        className='w-[150px] h-[80px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={daniel}
-                        alt='Aluizio Santos'
-                        className='w-[180px] h-[50px]'
-                    />
-                </div>
-
-
-            </div>
-
-            <div className='max-w-[1246px] px[15px] mx-auto flex flex-wrap items-center justify-center flex-row gap-4 mt-8 mb-8' data-aos="zoom-in">
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={paiva}
-                        alt='Elitton Aguiar'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={fabricio}
-                        alt='Prefeitura de Chapadinha-MA '
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={extreme}
-                        alt='Josimar do Maranhãozinho'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={posto}
-                        alt='Aluizio Santos'
-                        className='w-[200px] h-[100px]'
-                    />
-                </div>
-
-
-            </div>
-
-            <div className='max-w-[1246px] px[15px] mx-auto flex-wrap flex items-center justify-center flex-row gap-4 mt-8 mb-8' data-aos="zoom-in">
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={wanderson}
-                        alt='Elitton Aguiar'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={bruno}
-                        alt='Prefeitura de Chapadinha-MA '
-                        className='w-[200px] h-[100px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-blue-800 shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={alberto}
-                        alt='Josimar do Maranhãozinho'
-                        className='w-[150px] h-[50px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={gh}
-                        alt='Aluizio Santos'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-
-
-            </div>
-
-            <div className='max-w-[1246px] px[15px] mx-auto flex-wrap flex items-center justify-center flex-row gap-4 mt-8 mb-8' data-aos="zoom-in">
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={junior}
-                        alt='Elitton Aguiar'
-                        className='w-[150px] h-[80px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={dantas}
-                        alt='Prefeitura de Chapadinha-MA '
-                        className='w-[120px] h-[95px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={querido}
-                        alt='Josimar do Maranhãozinho'
-                        className='w-[200px] h-[40px]'
-                    />
-                </div>
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={delta}
-                        alt='Aluizio Santos'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-
-
-            </div>
-
-            <div className='max-w-[1246px] px[15px] mx-auto flex-wrap flex items-center justify-center flex-row gap-4 mt-8 mb-8'>
-                <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={varanda}
-                        alt='Aluizio Santos'
-                        className='w-[180px] h-[100px]'
-                    />
-                </div>
-
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={number}
-                        alt='Aluizio Santos'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={perpolpas}
-                        alt='Aluizio Santos'
-                        className='w-[200px] h-[100px] rounded-3xl'
-                    />
-                </div>
-
-                <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                    <Image
-                        src={maytha}
-                        alt='Aluizio Santos'
-                        className='w-[180px] h-[80px]'
-                    />
-                </div>
-
             </div>
 
         </section>

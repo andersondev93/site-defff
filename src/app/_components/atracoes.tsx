@@ -9,13 +9,13 @@ import mercado from '../../../public/mercado.png';
 export function Atracoes() {
     return (
 
-        <section className="w-full h-[785px] lg:h-[704px] lg:bg-img_bg_atr bg-no-repeat bg-center bg-cover overflow-hidden">
+        <section className="w-full h-[704px] lg:bg-img_bg_hero bg-no-repeat bg-center bg-cover overflow-hidden">
 
 
             <div className="flex items-center justify-center xl:justify-around w-full max-w-[1246px] px[15px] mx-auto flex-col">
                 <div className="mt-4">
-                    <h1 className='text-orange-600 lg:text-white lg:hidden mt-2 mb-4 text-[32px] text-center font-bold md:text-4xl xl:text-5xl' data-aos="fade-down">ATRAÇÕES</h1>
-                    <p className='text-black lg:text-white lg:hidden max-w-[350px] md:max-w-[700px] lg:max-w-[1194px] text-lg md:text-2xl mb-8 text-justify' data-aos="fade-down">Vamos comemorar um década de muita festa e alegria com as atrações:</p>
+                    <h1 className='text-orange-600 lg:text-white lg:hidden mt-2 mb-4 text-[32px] text-center font-bold md:text-4xl xl:text-5xl' data-aos="fade-up">ATRAÇÕES</h1>
+                    <p className='text-black lg:text-white lg:hidden max-w-[350px] md:max-w-[700px] lg:max-w-[1194px] text-lg md:text-2xl mb-8 text-justify' data-aos="fade-up">Vamos comemorar um década de muita festa e alegria com as atrações:</p>
                     <div className='w-[353px] flex items-center justify-center'>
                         <Image
                             src={defff}
@@ -43,7 +43,7 @@ export function Atracoes() {
                 <Image
                     src={atracoes}
                     alt='Atrações'
-                    className='w-[456px] h-[570px] lg:hidden rounded-3xl mb-5'
+                    className='w-[378px] h-[472px] lg:hidden rounded-3xl mb-5'
                     data-aos="fade-up"
                     data-aos-duration="3000"
                 />

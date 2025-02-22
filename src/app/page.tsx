@@ -14,16 +14,16 @@ export default function Home() {
       <Hero />
       <Defff />
       <Sobre />
-      <Defff />
+      <Defff />     
       <Atracoes />
-      <Defff />
+      <Defff />     
       <Abada />
-      <Defff />
+      <Defff />    
       <Master />
       <Cultural />
-      <Defff />
+      <Defff />    
       <Patrocinio />
-      <Defff />
+      <Defff />    
       <Footer />
 
     </main>

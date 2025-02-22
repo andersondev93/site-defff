@@ -4,13 +4,15 @@ import { FacebookLogo } from '@phosphor-icons/react/dist/ssr'
 
 export function Footer() {
     return (
-        <section className="xl:h-[416px] bg-orange-600 text-white border-t border-yellow-300 mx-auto">
+        <section className="xl:h-[416p] bg-orange-600 text-white border-t border-yellow-300 mx-auto">
             <div className="max-w-[1246px] mx-auto pl-4">
                 <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
                     <div className='border-r'>
                         <h3 className="text-2xl font-semibold mb-2">Bloco do DEFFF 10 anos</h3>
                         <p className='mb-4'>O Maior e Melhor Bloco de Chapadinha-MA</p>
-                        <a href="#" className="bg-green-500 px-5 py-2 max-w-[250px] rounded-md font-semibold flex items-center justify-center gap-2">
+                        <a
+                            target='blank'
+                            href={`https://wa.me/5598981334954?text=Olá vim pelo site e gostaria de mais informações`} className="bg-green-500 px-5 py-2 max-w-[250px] rounded-md font-semibold flex items-center justify-center gap-2">
                             <WhatsappLogo className='w-5 h-5' />
                             Contato via WhatsApp
                         </a>
@@ -24,8 +26,8 @@ export function Footer() {
                     <div className='border-r'>
                         <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
                         <div className='flex gap-4'>
-                            <a href="#" target="_blank"><InstagramLogo className='w-8 h-8' /></a>
-                            <a href="#" target="_blank"><FacebookLogo className='w-8 h-8' /></a>
+                            <a href="https://www.instagram.com/defffentretenimentos" target="_blank"><InstagramLogo className='w-8 h-8' /></a>
+                            <a href="https://www.facebook.com/DEFFFEntrtenimentos" target="_blank"><FacebookLogo className='w-8 h-8' /></a>
 
                         </div>
                     </div>

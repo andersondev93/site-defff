@@ -7,7 +7,7 @@ import josimar from '../../../public/josimar.png';
 
 export function Cultural() {
     return (
-        <section className="w-full h-[374px]">
+        <section className="w-full h-[374px] overflow-hidden">
 
             <div>
 
@@ -15,37 +15,37 @@ export function Cultural() {
 
             </div>
 
-            <div className='max-w-[1246px] mx-auto flex flex-wrap items-center justify-center flex-row h-[296px] my-4 gap-4' data-aos="zoom-in-down">
-                    <div className='w-[200px] h-[100px] bg-black shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                        <Image
-                            src={elitton}
-                            alt='Elitton Aguiar'
-                            className='w-[150px] h-[80px]'
-                        />
-                    </div>
-                    <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                        <Image
-                            src={prefeitura}
-                            alt='Prefeitura de Chapadinha-MA '
-                            className='w-[180px] h-[50px]'
-                        />
-                    </div>
-                    <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                        <Image
-                            src={josimar}
-                            alt='Josimar do Maranhãozinho'
-                            className='w-[150px] h-[50px]'
-                        />
-                    </div>
-                    <div className='w-[200px] h-[100px] bg-white shadow-2xl rounded-3xl border-2 flex items-center justify-center'>
-                        <Image
-                            src={aluizio}
-                            alt='Aluizio Santos'
-                            className='w-[180px] h-[50px]'
-                        />
-                    </div>
-
-
+            <div className="max-w-[1246px] h-[310px] mx-auto flex items-center justify-center">
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-2' data-aos="zoom-in-down">
+                        <div className=' bg-black shadow-2xl rounded-3xl border-2 w-[180px] flex items-center justify-center'>
+                            <Image
+                                src={elitton}
+                                alt='Elitton Aguiar'
+                                className='w-[150px] h-[100px] object-contain'
+                            />
+                        </div>
+                        <div className=' bg-white shadow-2xl rounded-3xl border-2 w-[180px] flex items-center justify-center'>
+                            <Image
+                                src={prefeitura}
+                                alt='Prefeitura de Chapadinha-MA'
+                                className='w-[150px] h-[100px] object-contain'
+                            />
+                        </div>
+                        <div className=' bg-white shadow-2xl rounded-3xl border-2 w-[180px] flex items-center justify-center'>
+                            <Image
+                                src={josimar}
+                                alt='Josimar do Maranhãozinho'
+                                className='w-[150px] h-[100px] object-contain'
+                            />
+                        </div>
+                        <div className=' bg-white shadow-2xl rounded-3xl border-2 w-[180px] flex items-center justify-center'>
+                            <Image
+                                src={aluizio}
+                                alt='Aluizio Santos'
+                                className='w-[150px] h-[100px] object-contain'
+                            />
+                        </div>
+                </div>
             </div>
 
         </section>
