@@ -7,10 +7,12 @@ import { Cultural } from "./_components/cultural";
 import { Patrocinio } from "./_components/patrocinio";
 import { Defff } from "./_components/defff";
 import { Footer } from "./_components/footer";
+import BackgroundMusic from "./_components/BackgroundMusic";
 
 export default function Home() {
   return (
     <main>
+      <BackgroundMusic />
       <Hero />
       <Defff />
       <Sobre />

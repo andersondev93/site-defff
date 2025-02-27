@@ -12,7 +12,7 @@ export function Abada() {
                 <div className='flex-1 max-w-[350px] lg:max-w-[497px] md:ml-4' data-aos="zoom-out">
                     <h1 className='text-orange-600 mt-2 mb-4 text-[32px] text-center font-bold lg:text-4xl lg:text-left xl:text-5xl'>ABADÁ</h1>
                     <p className='text-black text-lg mb-8 text-justify lg:text-lg'>Este será nosso abadá, relembrando o abadá de nossa primeira edição. Vem curtir essa Carnaval com a gente.</p>
-                    <p className='text-black text-lg mb-8 text-justify lg:text-lg'>Adquira seu abadá pelo preço promocional de R$25. O Bloco do DEFFF 2025 será realizado no dia 02 de março, domingo de Carnaval, no Mercado Pub, a partir das 16:00hrs.</p>
+                    <p className='text-black text-lg mb-8 text-justify lg:text-lg'>Adquira seu abadá pelo preço promocional de R$30 ou aproveite a casadinha por R$50. O Bloco do DEFFF 2025 será realizado no dia 02 de março, domingo de Carnaval, no Mercado Pub, a partir das 16:00hrs.</p>
                     <div className="flex items-center justify-center lg:justify-normal  text-white mb-8">
                         <a
                             target='blank'
