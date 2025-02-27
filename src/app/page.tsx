@@ -8,6 +8,7 @@ import { Patrocinio } from "./_components/patrocinio";
 import { Defff } from "./_components/defff";
 import { Footer } from "./_components/footer";
 import BackgroundMusic from "./_components/BackgroundMusic";
+import { Local } from "./_components/local";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
       <Atracoes />
       <Defff />     
       <Abada />
-      <Defff />    
+      <Defff />
+      <Local /> 
+      <Defff />   
       <Master />
       <Cultural />
       <Defff />    

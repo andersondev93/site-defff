@@ -5,7 +5,7 @@ import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function Abada() {
     return (
-        <section className="w-full h-[790px] lg:h-[704px] xl:h-[704px] overflow-hidden flex">
+        <section className="w-full h-[800px] lg:h-[704px] xl:h-[704px] overflow-hidden flex">
 
             <div className="flex items-center justify-center lg:justify-around w-full max-w-[1246px] px[15px] mx-auto flex-col lg:flex-row">
 
