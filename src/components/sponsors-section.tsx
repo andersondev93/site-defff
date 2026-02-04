@@ -8,12 +8,30 @@ const apoiadores = [
   {
     name: "Prefeitura de Chapadinha-MA",
     logo: "/images/parceiros/prefeitura.png",
-    width: 200,
+    width: 180,
     height: 80,
   },
   {
     name: "Deputado Aluizio Santos",
     logo: "/images/parceiros/aluizio.png",
+    width: 180,
+    height: 70,
+  },
+  {
+    name: "Deputada Detinha",
+    logo: "/images/parceiros/detinha.png",
+    width: 180,
+    height: 70,
+  },
+  {
+    name: "Advogado Elitton Aguiar",
+    logo: "/images/parceiros/elitton.png",
+    width: 180,
+    height: 70,
+  },
+  {
+    name: "Areal Soccer Arena",
+    logo: "/images/parceiros/arena.png",
     width: 180,
     height: 70,
   },
@@ -29,13 +47,73 @@ const patrocinadores = [
   {
     name: "Academia Extreme",
     logo: "/images/parceiros/extreme.jpeg",
-    width: 200,
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Supermercados Querido",
+    logo: "/images/parceiros/querido.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Matheus Ferreira",
+    logo: "/images/parceiros/mateus.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Vereador Bruno Aguiar",
+    logo: "/images/parceiros/bruno.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Vereador Junior Aguiar",
+    logo: "/images/parceiros/junior.png",
+    width: 180,
     height: 80,
   },
   {
     name: "Grupo Maythá",
     logo: "/images/parceiros/maytha.png",
-    width: 160,
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Altoflix Argamassas e Pré-Moldados",
+    logo: "/images/parceiros/altoflix.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Polpas de Frutas Perpolpas",
+    logo: "/images/parceiros/perpolpas.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Fabricio Mecânico",
+    logo: "/images/parceiros/fabricio.jpeg",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Varanda Burger",
+    logo: "/images/parceiros/varanda.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Depósito de Bebidas Silva",
+    logo: "/images/parceiros/silva.png",
+    width: 180,
+    height: 80,
+  },
+  {
+    name: "Paiva Art'Joias",
+    logo: "/images/parceiros/paiva.jpeg",
+    width: 180,
     height: 80,
   },
 ];
@@ -44,7 +122,7 @@ export function SponsorsSection() {
   return (
     <section id="parceiros" className="py-20 bg-card"
     style={{
-        backgroundImage: "url('/images/textura.jpeg')",
+        backgroundImage: "url('/images/textura.png')",
         backgroundPosition: 'center',
         backgroundSize: 'contain',
       }}
@@ -95,7 +173,7 @@ export function SponsorsSection() {
                 transition={{ duration: 0.4, delay: 0.1 * index }}
                 className="group"
               >
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                <div className="bg-white rounded-xl p-6 shadow-lg h-24 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                   <Image
                     src={apoiador.logo || "/placeholder.svg"}
                     alt={apoiador.name}
@@ -137,13 +215,13 @@ export function SponsorsSection() {
                 transition={{ duration: 0.4, delay: 0.1 * index }}
                 className="group"
               >
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-primary/20">
+                <div className="bg-white items-center justify-center rounded-xl p-6 h-34 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-primary/20">
                   <Image
                     src={patrocinador.logo || "/placeholder.svg"}
                     alt={patrocinador.name}
                     width={patrocinador.width}
                     height={patrocinador.height}
-                    className="object-contain transition-all duration-300"
+                    className="object-contain rounded-xl transition-all duration-300"
                   />
                 </div>
                 <p className="text-center text-sm text-[#1a2e1a] mt-3 font-medium">

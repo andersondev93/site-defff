@@ -14,6 +14,24 @@ const bebasNeue = Bebas_Neue({
 export const metadata: Metadata = {
   title: 'DEFFF Entretenimentos | Bloco do DEFFF - 11 Anos de Tradição',
   description: 'Bloco do DEFFF - 11 anos de tradição em eventos e entretenimento. Viva la Vida! Festas, shows e experiências inesquecíveis.',
+
+ openGraph: {
+    title: 'DEFFF Entretenimentos | Bloco do DEFFF - 11 Anos de Tradição',
+    description: 'Bloco do DEFFF - 11 anos de tradição em eventos e entretenimento. Viva la Vida! Festas, shows e experiências inesquecíveis.',
+    url: "https://www.defffentretenimentos.com.br",
+    siteName: "DEFFF Entretenimentos",
+    images: [
+      {
+        url: "https://www.defffentretenimentos.com.br/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "DEFFF Entretenimentos",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+
   keywords: ['bloco de carnaval', 'eventos', 'festas', 'entretenimento', 'DEFFF', 'carnaval'],
   generator: 'v0.app',
   icons: {

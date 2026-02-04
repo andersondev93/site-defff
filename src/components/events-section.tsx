@@ -97,9 +97,11 @@ export function EventsSection() {
                     {events[0].location}
                   </div>
                 </div>
-                <Button className="w-full font-semibold">
-                  Garantir Abadá
-                </Button>
+                <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full font-semibold">
+                    Garantir Abadá
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

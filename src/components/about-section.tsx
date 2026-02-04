@@ -41,7 +41,7 @@ export function AboutSection() {
               {/* Logo Container */}
               <div className="relative h-full rounded-3xl overflow-hidden border border-primary/30 bg-primary/10 flex items-center justify-center">
                 <Image
-                  src="/images/bloco-defff-logo.jpeg"
+                  src="/images/perfil.png"
                   alt="Bloco do DEFFF Logo"
                   fill
                   className="object-cover"

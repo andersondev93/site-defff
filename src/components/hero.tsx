@@ -25,8 +25,8 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col items-center sm:flex-row mb-4 gap-8">
-            <img src="/images/viva-la-vida.png" alt="" />
-            <img src="/images/2015.png" alt="" />
+            <img src="/images/viva.png" alt=" Viva la vida" />
+            <img src="/images/2015.png" alt=" Desde 2015" />
           </div>
 
           
@@ -51,10 +51,12 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="text-lg text-foreground bg-[#1a2e1a] px-8 py-6 font-semibold gap-2 hover:text-primary">
-              <Ticket className="w-5 h-5" />
-              Comprar Abadás
-            </Button>
+            <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="text-lg text-foreground bg-[#1a2e1a] px-8 py-6 font-semibold gap-2 hover:text-primary">
+                <Ticket className="w-5 h-5" />
+                Comprar Abadás
+              </Button>
+            </a>
             <Button size="lg" className="text-lg px-8 py-6 font-semibold border-primary/50 text-foreground bg-[#1a2e1a] hover:text-primary ">
               Ver Programação
             </Button>
