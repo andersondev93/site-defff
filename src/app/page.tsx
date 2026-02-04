@@ -1,36 +1,23 @@
-import { Hero } from "./_components/hero";
-import { Sobre } from "./_components/sobre";
-import { Atracoes } from "./_components/atracoes";
-import { Abada } from "./_components/abada";
-import { Master } from "./_components/master";
-import { Cultural } from "./_components/cultural";
-import { Patrocinio } from "./_components/patrocinio";
-import { Defff } from "./_components/defff";
-import { Footer } from "./_components/footer";
-import BackgroundMusic from "./_components/BackgroundMusic";
-import { Local } from "./_components/local";
+import { Header } from "../components/header"
+import { Hero } from "../components/hero"
+import { EventsSection } from "../components/events-section"
+import { GallerySection } from "../components/gallery-section"
+import { AboutSection } from "../components/about-section"
+import { SponsorsSection } from "../components/sponsors-section"
+import { ContactSection } from "../components/contact-section"
+import { Footer } from "../components/footer"
 
 export default function Home() {
   return (
-    <main>
-      <BackgroundMusic />
+    <main className="min-h-screen bg-background">
+      <Header />
       <Hero />
-      <Defff />
-      <Sobre />
-      <Defff />     
-      <Atracoes />
-      <Defff />     
-      <Abada />
-      <Defff />
-      <Local /> 
-      <Defff />   
-      <Master />
-      <Cultural />
-      <Defff />    
-      <Patrocinio />
-      <Defff />    
+      <EventsSection />
+      <GallerySection />
+      <AboutSection />
+      <SponsorsSection />
+      <ContactSection />
       <Footer />
-
     </main>
-  );
+  )
 }
