@@ -23,7 +23,7 @@ const features = [
   {
     icon: Heart,
     title: "Comunidade",
-    description: "Mais de 50 mil foliões que fazem parte da família DEFFF.",
+    description: "Mais de 5 mil foliões que fazem parte da família DEFFF.",
   },
 ]
 

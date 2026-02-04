@@ -1,5 +1,6 @@
 import { Header } from "../components/header"
 import { Hero } from "../components/hero"
+import { TournamentSection } from "../components/tournament-section"
 import { EventsSection } from "../components/events-section"
 import { GallerySection } from "../components/gallery-section"
 import { AboutSection } from "../components/about-section"
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Header />
       <Hero />
+      <TournamentSection />
       <EventsSection />
       <GallerySection />
       <AboutSection />

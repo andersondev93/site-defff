@@ -32,11 +32,11 @@ export function GallerySection() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <Badge variant="outline" className="border-background text-background mb-4">
+          <Badge variant="outline" className="border-[#1a2e1a] bg-[#1a2e1a] text-white mb-4">
             Memórias
           </Badge>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-background mb-4">
-            Nossa <span className="text-primary">Galeria</span>
+            Nossa <span className="text-primary [text-shadow:-2px_-2px_0_#1a2e1a,2px_-2px_0_#1a2e1a,-2px_2px_0_#1a2e1a,2px_2px_0_#1a2e1a]">Galeria</span>
           </h2>
           <p className="text-background max-w-2xl mx-auto">
             Reviva os melhores momentos das nossas festas. 11 anos de alegria, música e muita energia!
@@ -82,7 +82,7 @@ export function GallerySection() {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground font-semibold bg-transparent">
+          <Button variant="outline" size="lg" className="border-[#1a2e1a] bg-[#1a2e1a] text-white hover:bg-primary hover:text-primary-foreground font-semibold">
             Ver Galeria Completa
           </Button>
         </div>

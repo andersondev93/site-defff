@@ -42,7 +42,13 @@ const patrocinadores = [
 
 export function SponsorsSection() {
   return (
-    <section id="parceiros" className="py-20 bg-card">
+    <section id="parceiros" className="py-20 bg-card"
+    style={{
+        backgroundImage: "url('/images/textura.jpeg')",
+        backgroundPosition: 'center',
+        backgroundSize: 'contain',
+      }}
+    >
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <motion.div
@@ -52,13 +58,13 @@ export function SponsorsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-2 bg-[#1a2e1a] text-primary rounded-full text-sm font-semibold mb-4">
             Nossos Parceiros
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground font-display">
+          <h2 className="text-4xl md:text-5xl text-white font-bold [text-shadow:-2px_-2px_0_#1a2e1a,2px_-2px_0_#1a2e1a,-2px_2px_0_#1a2e1a,2px_2px_0_#1a2e1a] font-display">
             QUEM FAZ ACONTECER
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 text-[#1a2e1a] font-bold max-w-2xl mx-auto">
             Agradecemos a todos os parceiros que tornam o Bloco do DEFFF possível
           </p>
         </motion.div>
@@ -72,11 +78,11 @@ export function SponsorsSection() {
           className="mb-16"
         >
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="h-px bg-border flex-1 max-w-32" />
-            <h3 className="text-2xl font-bold text-primary font-display tracking-wider">
+            <div className="h-px bg-[#1a2e1a] flex-1 max-w-32" />
+            <h3 className="text-2xl text-white font-bold [text-shadow:-2px_-2px_0_#1a2e1a,2px_-2px_0_#1a2e1a,-2px_2px_0_#1a2e1a,2px_2px_0_#1a2e1a] font-display tracking-wider">
               APOIO
             </h3>
-            <div className="h-px bg-border flex-1 max-w-32" />
+            <div className="h-px bg-[#1a2e1a] flex-1 max-w-32" />
           </div>
           
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
@@ -95,10 +101,10 @@ export function SponsorsSection() {
                     alt={apoiador.name}
                     width={apoiador.width}
                     height={apoiador.height}
-                    className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="object-contain transition-all duration-300"
                   />
                 </div>
-                <p className="text-center text-sm text-muted-foreground mt-3 font-medium">
+                <p className="text-center text-sm text-[#1a2e1a] mt-3 font-medium">
                   {apoiador.name}
                 </p>
               </motion.div>
@@ -114,11 +120,11 @@ export function SponsorsSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="h-px bg-primary/30 flex-1 max-w-32" />
-            <h3 className="text-2xl font-bold text-primary font-display tracking-wider">
+            <div className="h-px bg-[#1a2e1a] flex-1 max-w-32" />
+            <h3 className="text-2xl text-white font-bold [text-shadow:-2px_-2px_0_#1a2e1a,2px_-2px_0_#1a2e1a,-2px_2px_0_#1a2e1a,2px_2px_0_#1a2e1a] font-display tracking-wider">
               PATROCINIO
             </h3>
-            <div className="h-px bg-primary/30 flex-1 max-w-32" />
+            <div className="h-px bg-[#1a2e1a] flex-1 max-w-32" />
           </div>
           
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
@@ -137,10 +143,10 @@ export function SponsorsSection() {
                     alt={patrocinador.name}
                     width={patrocinador.width}
                     height={patrocinador.height}
-                    className="object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="object-contain transition-all duration-300"
                   />
                 </div>
-                <p className="text-center text-sm text-muted-foreground mt-3 font-medium">
+                <p className="text-center text-sm text-[#1a2e1a] mt-3 font-medium">
                   {patrocinador.name}
                 </p>
               </motion.div>
@@ -157,10 +163,10 @@ export function SponsorsSection() {
           className="mt-16 text-center"
         >
           <div className="inline-block bg-secondary/50 rounded-2xl p-8 border border-border">
-            <h4 className="text-xl font-bold text-foreground mb-2">
+            <h4 className="text-xl font-bold text-foreground [text-shadow:-1px_-1px_0_#1a2e1a,1px_-1px_0_#1a2e1a,-1px_1px_0_#1a2e1a,1px_1px_0_#1a2e1a] mb-2">
               Quer ser nosso parceiro?
             </h4>
-            <p className="text-muted-foreground mb-4">
+            <p className="text-white mb-4">
               Entre em contato e faça parte dessa festa!
             </p>
             <a

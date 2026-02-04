@@ -24,7 +24,7 @@ export function Hero() {
             <img src="/images/defff-2026.png" alt="" />
           </div>
 
-          <div className="flex mb-4 gap-8">
+          <div className="flex flex-col items-center sm:flex-row mb-4 gap-8">
             <img src="/images/viva-la-vida.png" alt="" />
             <img src="/images/2015.png" alt="" />
           </div>
@@ -32,7 +32,7 @@ export function Hero() {
           
 
           {/* Event Info */}
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-10">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 mb-10">
             <div className="flex items-center gap-2 bg-secondary/50 rounded-lg px-4 py-3">
               <CalendarDays className="w-5 h-5 text-primary" />
               <div className="text-left">
@@ -51,11 +51,11 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="text-lg text-foreground bg-background px-8 py-6 font-semibold gap-2 hover:text-primary">
+            <Button size="lg" className="text-lg text-foreground bg-[#1a2e1a] px-8 py-6 font-semibold gap-2 hover:text-primary">
               <Ticket className="w-5 h-5" />
               Comprar Abadás
             </Button>
-            <Button size="lg" className="text-lg px-8 py-6 font-semibold border-primary/50 text-foreground bg-background hover:text-primary ">
+            <Button size="lg" className="text-lg px-8 py-6 font-semibold border-primary/50 text-foreground bg-[#1a2e1a] hover:text-primary ">
               Ver Programação
             </Button>
           </div>
@@ -63,16 +63,16 @@ export function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 md:gap-16 mt-8 pt-8 mb-2 border-t border-border/50">
             <div className="text-center">
-              <p className="font-display text-4xl md:text-5xl text-background">11+</p>
-              <p className="text-sm text-background mt-1">Anos de Festa</p>
+              <p className="font-display text-4xl md:text-5xl text-[#1a2e1a]">11+</p>
+              <p className="text-sm text-[#1a2e1a] mt-1">Anos de Festa</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-4xl md:text-5xl text-background">5K+</p>
-              <p className="text-sm text-background mt-1">Foliões</p>
+              <p className="font-display text-4xl md:text-5xl text-[#1a2e1a]">5K+</p>
+              <p className="text-sm text-[#1a2e1a] mt-1">Foliões</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-4xl md:text-5xl text-background">50+</p>
-              <p className="text-sm text-background mt-1">Eventos</p>
+              <p className="font-display text-4xl md:text-5xl text-[#1a2e1a]">50+</p>
+              <p className="text-sm text-[#1a2e1a] mt-1">Eventos</p>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import { Button } from "../components/ui/button"
 import { Card, CardContent } from "../components/ui/card"
 import { Badge } from "../components/ui/badge"
 import { CalendarDays, MapPin, Clock, ArrowRight } from "lucide-react"
+import { tr } from "date-fns/locale"
 
 const events = [
   {
