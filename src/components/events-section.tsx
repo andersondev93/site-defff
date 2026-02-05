@@ -12,7 +12,7 @@ const events = [
     id: 1,
     title: "Bloco do DEFFF 2026",
     date: "15 FEV 2026",
-    time: "16:00",
+    time: "15:30",
     location: "Areal Soccer Arena",
     image: "/images/bloco-defff-evento.png",
     status: "Próximo Evento",
@@ -54,7 +54,7 @@ export function EventsSection() {
               <span className="text-primary">Eventos</span>
             </h2>
           </div>
-          <Button variant="ghost" className="text-primary hover:text-primary self-start md:self-auto gap-2">
+          <Button variant="ghost" className="text-primary hover:text-[#1a2e1a] self-start md:self-auto gap-2">
             Ver todos os eventos
             <ArrowRight className="w-4 h-4" />
           </Button>

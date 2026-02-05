@@ -136,7 +136,7 @@ export function SponsorsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-2 bg-[#1a2e1a] text-primary rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-2 border-2 border-[#1a2e1a] text-[#1a2e1a] rounded-full text-sm font-semibold mb-4">
             Nossos Parceiros
           </span>
           <h2 className="text-4xl md:text-5xl text-white font-bold [text-shadow:-2px_-2px_0_#1a2e1a,2px_-2px_0_#1a2e1a,-2px_2px_0_#1a2e1a,2px_2px_0_#1a2e1a] font-display">

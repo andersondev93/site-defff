@@ -84,8 +84,7 @@ export default function ProgramacaoPage() {
                             <span className="font-medium">Voltar</span>
                         </Link>
                         <div className="font-display text-2xl md:text-3xl tracking-tight flex gap-2">
-                            <span className="text-white">BLOCO DO</span>
-                            <span className="text-primary">DEFFF</span>
+                            <span className="text-primary">DEFFF 2026</span>
                         </div>
                         <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
                             <Button size="sm" className="font-semibold cursor-pointer">
@@ -102,7 +101,7 @@ export default function ProgramacaoPage() {
                 <div className="container mx-auto px-4">
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                         {/* Event Image */}
-                        <div className="relative aspect-square max-w-lg  lg:mx-0 rounded-2xl overflow-hidden border-4 border-primary shadow-2xl">
+                        <div className="relative aspect-square max-w-lg lg:mx-0 rounded-2xl overflow-hidden border-4 border-primary shadow-2xl">
                             <Image
                                 src="/images/kassyo.png"
                                 alt="Bloco do DEFFF 2026 - Kassyo Ventury"
@@ -155,16 +154,11 @@ export default function ProgramacaoPage() {
 
                             {/* CTA */}
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
-                                    <Button size="lg" className="cursor-pointer text-lg px-8 py-6 font-bold shadow-lg hover:bg-[#1a2e1a] hover:text-primary">
-                                        <Ticket className="w-5 h-5 mr-2" />
-                                        Comprar Abadás
-                                    </Button>
-                                </a>
+
                                 <Button
                                     size="lg"
                                     variant="outline"
-                                    className="text-lg px-8 py-6 font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-card shadow-md"
+                                    className="text-lg px-8 py-6 font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-card shadow-md animate-bounce"
                                     asChild
                                 >
                                     <a
@@ -173,9 +167,27 @@ export default function ProgramacaoPage() {
                                         rel="noopener noreferrer"
                                     >
                                         <MapPinned className="w-5 h-5 mr-2" />
-                                        Ver no Mapa
+                                        Ver Local do Evento no Mapa
                                     </a>
                                 </Button>
+
+                                <div className="relative aspect-square max-w-lg  lg:mx-0 rounded-2xl overflow-hidden border-4 border-primary shadow-2xl">
+                                    <Image
+                                        src="/images/abada2.png"
+                                        alt="Bloco do DEFFF 2026 - Abadás"
+                                        fill
+                                        className="object-cover"
+                                        priority
+                                    />
+                                </div>
+
+                                <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
+                                    <Button size="lg" className="cursor-pointer text-lg px-8 py-6 font-bold shadow-lg hover:bg-[#1a2e1a] hover:text-primary">
+                                        <Ticket className="w-5 h-5 mr-2" />
+                                        Comprar Abadás
+                                    </Button>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -301,20 +313,20 @@ export default function ProgramacaoPage() {
                         </p>
 
                         <Button
-                                    size="lg"
-                                    variant="outline"
-                                    className="text-lg px-8 py-6 mt-4 font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-card shadow-md"
-                                    asChild
-                                >
-                                    <a
-                                        href="https://maps.google.com/?q=Areal+Soccer+Arena+Chapadinha+MA"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <MapPinned className="w-5 h-5 mr-2" />
-                                        Ver no Mapa
-                                    </a>
-                                </Button>        
+                            size="lg"
+                            variant="outline"
+                            className="text-lg px-10 py-6 mt-8 font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-card shadow-md animate-bounce"
+                            asChild
+                        >
+                            <a
+                                href="https://maps.google.com/?q=Areal+Soccer+Arena+Chapadinha+MA"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <MapPinned className="w-5 h-5 mr-2" />
+                                Ver no Mapa
+                            </a>
+                        </Button>
 
                     </div>
 

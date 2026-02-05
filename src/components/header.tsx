@@ -7,9 +7,9 @@ import { Button } from "../components/ui/button"
 
 const navLinks = [
   { href: "#inicio", label: "Início" },
-  { href: "#eventos", label: "Eventos" },
-  { href: "#galeria", label: "Galeria" },
   { href: "#sobre", label: "Sobre" },
+  { href: "#galeria", label: "Galeria" },
+  { href: "#eventos", label: "Eventos" },
   { href: "#parceiros", label: "Parceiros" },
   { href: "#contato", label: "Contato" },
 ]
@@ -56,7 +56,7 @@ export function Header() {
               </Link>
             </div>
             <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
-              <Button size="sm" className="font-semibold">
+              <Button size="sm" className="font-semibold cursor-pointer">
                 Comprar Abadás
               </Button>
             </a>

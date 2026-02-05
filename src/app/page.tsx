@@ -14,9 +14,9 @@ export default function Home() {
       <Header />
       <Hero />
       <TournamentSection />
-      <EventsSection />
-      <GallerySection />
       <AboutSection />
+      <GallerySection />
+      <EventsSection />
       <SponsorsSection />
       <ContactSection />
       <Footer />

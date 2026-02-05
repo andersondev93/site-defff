@@ -9,7 +9,7 @@ export function TournamentSection() {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
   return (
-    <section className="py-12 bg-[#1a2e1a] relative overflow-hidden">
+    <section className="py-12 bg-[#3f743f] relative overflow-hidden">
       
 
       <div className="container mx-auto px-4 relative z-10">
@@ -54,7 +54,7 @@ export function TournamentSection() {
                   <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                     <Button 
                       size="lg" 
-                      className="font-bold gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-lg hover:shadow-xl transition-all"
+                      className="font-bold gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-lg hover:shadow-xl transition-all cursor-pointer"
                     >
                       <Phone className="w-5 h-5" />
                       Inscreva-se pelo WhatsApp
@@ -64,11 +64,6 @@ export function TournamentSection() {
               </div>
             </div>
           </div>
-
-          {/* Bottom text */}
-          <p className="text-center text-primary font-bold mt-4 text-lg">
-            Bora pro jogo!
-          </p>
         </div>
       </div>
     </section>
