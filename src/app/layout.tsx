@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     siteName: "DEFFF Entretenimentos",
     images: [
       {
-        url: "https://www.defffentretenimentos.com.br/og-image.jpg",
+        url: "https://www.defffentretenimentos.com.br/og-image.png",
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: "DEFFF Entretenimentos",
       },
     ],
