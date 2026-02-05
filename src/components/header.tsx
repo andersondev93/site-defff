@@ -97,9 +97,11 @@ export function Header() {
                   <Youtube className="w-5 h-5" />
                 </Link>
               </div>
-              <Button className="w-full font-semibold mt-2">
-                Comprar Ingressos
-              </Button>
+              <a href={`https://wa.me/5598991270266?text=Olá vim pelo site e gostaria de mais informações`} target="_blank" rel="noopener noreferrer">
+                <Button className="w-full font-semibold mt-2">
+                  Comprar Abadás
+                </Button>
+              </a>
             </nav>
           </div>
         )}

@@ -2,6 +2,7 @@
 
 import { Button } from "../components/ui/button"
 import { CalendarDays, MapPin, Ticket } from "lucide-react"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -58,7 +59,7 @@ export function Hero() {
               </Button>
             </a>
             <Button size="lg" className="text-lg px-8 py-6 font-semibold border-primary/50 text-foreground bg-[#1a2e1a] hover:text-primary ">
-              Ver Programação
+              <Link href="/programacao">Ver Programacao</Link>
             </Button>
           </div>
 
