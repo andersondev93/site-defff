@@ -81,11 +81,11 @@ export function GallerySection() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+       {/* <div className="text-center mt-12">
           <Button variant="outline" size="lg" className="border-[#1a2e1a] bg-[#1a2e1a] text-white hover:bg-primary hover:text-primary-foreground font-semibold">
             Ver Galeria Completa
           </Button>
-        </div>
+        </div>*/}
       </div>
 
       {/* Lightbox Modal Atualizado */}

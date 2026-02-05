@@ -41,7 +41,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <Link href="/programacao">
-              <Button size="lg" className="text-lg px-6 py-6 font-semibold border-primary/50 text-foreground bg-[#1a2e1a] hover:text-primary cursor-pointer animate-bounce">
+              <Button size="lg" className="text-lg px-4 py-6 font-semibold border-primary/50 text-foreground bg-[#1a2e1a] hover:text-primary cursor-pointer animate-bounce">
                 Ver Programacão Completa - Clique Aqui!
               </Button>
             </Link>

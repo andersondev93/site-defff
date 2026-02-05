@@ -58,7 +58,8 @@ const venuePhotos = [
     {
         id: 2,
         title: "Area de Festas",
-        placeholder: true,
+        imagem: "/images/venue/2.png",
+        placeholder: false,
     },
     {
         id: 3,
