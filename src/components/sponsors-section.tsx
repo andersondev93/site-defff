@@ -81,6 +81,12 @@ const patrocinadores = [
     height: 80,
   },
   {
+    name: "Fisioterapeuta Daniel Viana",
+    logo: "/images/parceiros/daniel.png",
+    width: 180,
+    height: 80,
+  },
+  {
     name: "Altoflix Argamassas e Pré-Moldados",
     logo: "/images/parceiros/altoflix.png",
     width: 180,
@@ -100,13 +106,13 @@ const patrocinadores = [
   },
   {
     name: "Varanda Burger",
-    logo: "/images/parceiros/varanda.png",
+    logo: "/images/parceiros/varanda2.png",
     width: 180,
     height: 80,
   },
   {
     name: "Depósito de Bebidas Silva",
-    logo: "/images/parceiros/silva.png",
+    logo: "/images/parceiros/silva2.png",
     width: 180,
     height: 80,
   },

@@ -51,25 +51,53 @@ const schedule = [
 const venuePhotos = [
     {
         id: 1,
-        title: "Campo Principal",
         imagem: "/images/venue/1.png",
         placeholder: false,
     },
     {
         id: 2,
-        title: "Area de Festas",
         imagem: "/images/venue/2.png",
         placeholder: false,
     },
     {
         id: 3,
-        title: "Estrutura do Evento",
-        placeholder: true,
+        imagem: "/images/venue/3.png",
+        placeholder: false,
     },
     {
         id: 4,
-        title: "Espacos VIP",
-        placeholder: true,
+        imagem: "/images/venue/4.png",
+        placeholder: false,
+    },
+    {
+        id: 5,
+        imagem: "/images/venue/5.png",
+        placeholder: false,
+    },
+    {
+        id: 6,
+        imagem: "/images/venue/6.png",
+        placeholder: false,
+    },
+    {
+        id: 7,
+        imagem: "/images/venue/7.png",
+        placeholder: false,
+    },
+    {
+        id: 8,
+        imagem: "/images/venue/8.png",
+        placeholder: false,
+    },
+    {
+        id: 9,
+        imagem: "/images/venue/9.png",
+        placeholder: false,
+    },
+    {
+        id: 10,
+        imagem: "/images/venue/10.png",
+        placeholder: false,
     },
 ]
 
@@ -199,15 +227,11 @@ export default function ProgramacaoPage() {
             <section className="py-12 bg-[#1a2e1a]">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
-                        <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-5 py-2.5 mb-6">
-                            <Trophy className="w-5 h-5 text-primary" />
-                            <span className="text-sm font-bold text-primary">Torneio Society</span>
+                        <div className="inline-flex items-center gap-2 mb-6">
+                            <img src="/images/torneio.png" alt="Logo do Torneio Society" className="w-40 h-50" />
                         </div>
-                        <h2 className="font-display text-3xl md:text-4xl text-white mb-4">
-                            TORNEIO DE FUTEBOL SOCIETY
-                        </h2>
                         <p className="text-lg text-white mb-6">
-                            Com premiacao durante a tarde! Monte seu time e participe.
+                            Queremos ver quem é craque de verdade! Compre seu abadá, monte seu time e participe:
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <div className="bg-primary/10 border border-primary/30 rounded-xl px-6 py-4">
@@ -340,19 +364,19 @@ export default function ProgramacaoPage() {
                                 {photo.placeholder ? (
                                     <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/50">
                                         <MapPin className="w-12 h-12 text-primary/50 mb-2" />
-                                        <span className="text-sm text-muted-foreground font-medium">{photo.title}</span>
+                                        <span className="text-sm text-muted-foreground font-medium"></span>
                                         <span className="text-xs text-muted-foreground/70 mt-1">Foto em breve</span>
                                     </div>
                                 ) : (
                                     <Image
                                         src={`/images/venue/${photo.id}.png`}
-                                        alt={photo.title}
+                                        alt={'Foto do local ' + photo.id}
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                                     />
                                 )}
                                 <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-4">
-                                    <p className="text-white font-semibold">{photo.title}</p>
+                                    
                                 </div>
                             </div>
                         ))}
